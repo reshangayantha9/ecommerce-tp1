@@ -33,3 +33,10 @@
   font-size: 18px;
   margin-right: 15px;
 }
+@media screen and (max-width: 800px) {
+  .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+  }
+}

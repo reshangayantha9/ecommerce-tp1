@@ -45,3 +45,15 @@ p{
   font-size: 12px;
 }
 
+@media screen and (max-width: 800px) {
+  .row{
+    display:grid;
+    justify-content: center;
+    position: static;
+    overflow: hidden;
+  }
+  .content{
+    position: static;
+    overflow: hidden;
+  }
+}
