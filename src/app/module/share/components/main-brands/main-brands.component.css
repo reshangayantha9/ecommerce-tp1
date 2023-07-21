@@ -1,0 +1,28 @@
+.main-brand{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  overflow:hidden;
+}
+
+.col img{
+  width:250px;
+}
+@media screen and (max-width: 675px) {
+  .col img{
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .col img{
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .col img{
+    width: 150px;
+  }
+}

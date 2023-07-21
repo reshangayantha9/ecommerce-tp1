@@ -1,0 +1,58 @@
+.footer-top{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #F5F5F5;
+  color:#000000;
+  padding: 10px 0;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  display: flex;
+  align-items: center;
+}
+.left h5{
+  margin: 0;
+  font-size: 16px;
+}
+.left input{
+  margin-left: 20px;
+  width: 250px;
+  padding: 5px;
+}
+.btn{
+  color: #FFFFFF;
+  background-color: black;
+  border: none;
+  border-radius: 0;
+}
+.right{
+  display: flex;
+  align-items: center;
+  gap:15px;
+}
+.right h5{
+  margin: 0;
+  font-size: 16px;
+}
+.right i{
+  font-size: 24px;
+}
+@media screen and (max-width: 992px) {
+  .container{
+    flex-direction: column;
+  }
+  .left{
+    display: block;
+  }
+  .left div{
+    display: flex;
+  }
+  .left input{
+    margin: 0;
+  }
+
+}

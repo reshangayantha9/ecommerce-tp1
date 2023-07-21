@@ -1,0 +1,100 @@
+#main-slider{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.container-fluid{
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+#carouselExampleIndicators .carousel-indicators button{
+  border-radius: 50%!important;
+  padding: 5px 1px;
+}
+.carousel-item{
+  height: 75vh;
+}
+.carousel-item .slide{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.slide h2{
+  font-weight: 700;
+  color:white;
+  letter-spacing: normal;
+  font-size: 60px;
+  line-height: 1.1;
+}
+.slide h3{
+  margin: 10px 0 15px;
+  letter-spacing: normal;
+  color: white;
+  font-size: 16px;
+  line-height: 1.1;
+}
+.slide .btn{
+  width: auto;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 2px solid rgba(0,0,0,0);
+  background-color: #000;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1;
+  transition: all 0.3s ease-in-out;
+  font-size: 13px;
+  padding: 10px 24px;
+  white-space: nowrap;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+.carousel-item:nth-child(1){
+  background-image: url("/assets/carousel-1-removebg-preview.png");
+  background-size: contain;
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-color: #ACAEAD;
+}
+.carousel-item:nth-child(2){
+  background-image: url("/assets/carousel-2-removebg-preview.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #E3BB30;
+}
+@media only screen and (max-width: 900px) {
+  .slide h2{
+    font-size: 36px;
+
+  }
+}
+@media only screen and (max-width: 600px) {
+  .slide h2{
+    font-size: 24px;
+
+  }
+  .slide h3{
+    font-size: 12px;
+    text-align: center;
+  }
+  .carousel-item .slide{
+    justify-content: flex-end;
+  }
+  .slide .btn{
+    margin-bottom: 50px;
+  }
+}

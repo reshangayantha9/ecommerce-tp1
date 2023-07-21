@@ -1,0 +1,55 @@
+.main-category{
+  width: 100%;
+  margin: 20px 0;
+  padding-left: 20px;
+}
+.card{
+  width: 250px;
+  height: 300px;
+  border: none;
+  border-radius: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all ease-out 0.4s;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.btn{
+  background-color: #FFFFFF;
+  color: black;
+  margin-bottom: 20px;
+}
+.card-1{
+  background-image: url("/assets/cat1.jpg");
+}
+
+.card-2{
+  background-image: url("/assets/cat2.jpg");
+}
+.card-3{
+  background-image: url("/assets/cat3.jpg");
+}
+.card-4{
+  background-image: url("/assets/cat4.jpg");
+}
+.card-5{
+  background-image: url("/assets/cat5.jpg");
+}
+.card-6{
+  background-image: url("/assets/cat6.jpg");
+}
+@media screen and (max-width: 550px) {
+  .card{
+    margin-left: 48px;
+  }
+}
+@media screen and (max-width: 1059px){
+  .card{
+    margin-left: 30px;
+  }
+}
