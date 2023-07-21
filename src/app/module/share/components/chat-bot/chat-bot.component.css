@@ -1,0 +1,25 @@
+.whatsapp{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  font-size: 39px;
+  margin-bottom: 20px;
+  margin-right: 25px;
+  padding: 5px 13px 0 13px;
+  border-radius: 50%;
+  background-color: #31A3A3;
+  animation-name: run;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  cursor: pointer;
+}
+
+@keyframes run {
+  from{
+
+  }to{
+  bottom: 10px;
+     }
+}

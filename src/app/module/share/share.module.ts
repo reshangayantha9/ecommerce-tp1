@@ -18,6 +18,7 @@ import { FooterContextComponent } from './components/footer-context/footer-conte
 import { FooterTopComponent } from './components/footer-context/inner-items/footer-top/footer-top.component';
 import { FooterMiddleComponent } from './components/footer-context/inner-items/footer-middle/footer-middle.component';
 import { FooterBottomComponent } from './components/footer-context/inner-items/footer-bottom/footer-bottom.component';
+import { ChatBotComponent } from './components/chat-bot/chat-bot.component';
 @NgModule({
     declarations: [
         ShareComponent,
@@ -32,7 +33,8 @@ import { FooterBottomComponent } from './components/footer-context/inner-items/f
         FooterContextComponent,
         FooterTopComponent,
         FooterMiddleComponent,
-        FooterBottomComponent
+        FooterBottomComponent,
+        ChatBotComponent
     ],
     exports: [
         MainNewProductComponent,
@@ -40,7 +42,8 @@ import { FooterBottomComponent } from './components/footer-context/inner-items/f
         MainBrandsComponent,
         MainFeturedProductComponent,
         MainBlogComponent,
-        FooterContextComponent
+        FooterContextComponent,
+        ChatBotComponent
     ],
     imports: [
         CommonModule,
